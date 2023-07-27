@@ -1,3 +1,4 @@
 circuit module0 :
   module module0 :
-    input in : UInt<1>
+    input m_clock : Clock
+    input p_reset : UInt<1>

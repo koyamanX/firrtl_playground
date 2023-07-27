@@ -1,0 +1,15 @@
+declare moduleA {
+  input a;
+  input b;
+  input cin;
+  output cout;
+  output sum;
+}
+
+module moduleA {
+  sum = (!a && !b && cin) || (!a && b && !cin)
+        || (a && !b && !cin) || (a && b && cin);
+  cout = (!a && b && cin) || (a && !b && cin)
+        || (a && b && !cin) || (a && b && cin);
+}
+

@@ -1,4 +1,5 @@
 module module0(
-  input   in
+  input   m_clock,
+  input   p_reset
 );
 endmodule
