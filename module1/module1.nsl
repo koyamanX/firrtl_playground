@@ -1,0 +1,8 @@
+declare module1 {
+    input in;
+    output out;
+}
+
+module module1 {
+    out = in;
+}
